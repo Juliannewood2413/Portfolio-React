@@ -9,12 +9,13 @@ function Header() {
         <div className='header-container'>
             <img src="/images/jeshoots.jpg"></img>
             <h1>Portfolio</h1>
-            <p>See some projects</p>
+            <p>
+              Hi! I'm Jules, a front-end web designer with the goal of making fun and exciting websites, one line of code at a time!
+              
+               Feel free to click on the portfolio link above to see examples, or follow the contact link to get in touch!
+            </p>
             <div className="header-btns">
                 <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-                <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>Watch Trailer 
-                <i className='far fa-play-circle'></i>
-                </Button>
             </div>
         </div>
     )
