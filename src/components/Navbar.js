@@ -47,18 +47,18 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                            Services
+                        <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+                            Projects
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
                             Products
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                        <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Sign-up
+                        <Link to="/contact" className="nav-links-mobile" onClick={closeMobileMenu}>
+                            Contact
                         </Link>
                     </li>
                 </ul>
@@ -69,4 +69,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
