@@ -30,18 +30,14 @@ function Footer() {
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>About Us</h2>
-                        <Link to="/sign-up">TEXT</Link>
+                        <h2>More Info </h2>
+                        <Link to="https://juliannewood2413.github.io/Resume_file/">Resume</Link>
                         <Link to="/">TEXT</Link>
                     </div>
                 </div>
             </div>
             <section className="social-media">
                 <div className="social-media-wrap">
-                    <div className="footer-logo">
-                        <Link to="/" className="social-logo">LINK HERE</Link>
-                    </div>
-                    {/* <small class='website-rights'>TRVL © 2020</small> */}
                     <div class='social-icons'>
                      <Link
                     class='social-icon-link facebook'
