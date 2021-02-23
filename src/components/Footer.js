@@ -8,9 +8,9 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    FOOTER HERE
+                    Contact Info
                 </p>
-                <p className="footer-subscription-text">
+                {/* <p className="footer-subscription-text">
                     FOOTER TEXT
                 </p>
                 <div className="input-areas">
@@ -18,21 +18,21 @@ function Footer() {
                         <input type="email" name="email" placeholder="Your Email" className="footer-input"></input>
                         <Button buttonStyle="btn--outline">TEXT</Button>
                     </form>
-                </div>
+                </div> */}
             </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>TEXT</h2>
-                        <Link to="/sign-up">TEXT</Link>
-                        <Link to="/">TEXT</Link>
+                        <h2>Social Media</h2>
+                        <Link to="/sign-up">LinkedIn</Link>
+                        <Link to="/">GitHub</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>More Info </h2>
                         <Link to="https://juliannewood2413.github.io/Resume_file/">Resume</Link>
-                        <Link to="/">TEXT</Link>
+                        <Link to="/">GitHub</Link>
                     </div>
                 </div>
             </div>
