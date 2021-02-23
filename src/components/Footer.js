@@ -24,64 +24,19 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Social Media</h2>
-                        <Link to="/sign-up">LinkedIn</Link>
-                        <Link to="/">GitHub</Link>
+                        <Link to="https://www.linkedin.com/in/julianne-wood-1392261b5/">LinkedIn<i class="fab fa-linkedin fa-4x"></i></Link>
+                        <Link to="https://github.com/Juliannewood2413">GitHub</Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>More Info </h2>
                         <Link to="https://juliannewood2413.github.io/Resume_file/">Resume</Link>
-                        <Link to="/">GitHub</Link>
+                        <Link to="https://github.com/Juliannewood2413">GitHub</Link>
                     </div>
                 </div>
             </div>
-            <section className="social-media">
-                <div className="social-media-wrap">
-                    <div class='social-icons'>
-                     <Link
-                    class='social-icon-link facebook'
-                     to='/'
-                     target='_blank'
-                     aria-label='Facebook'
-                     >
-                    <i class='fab fa-facebook-f' />
-                    </Link>
-                     <Link
-                    class='social-icon-link instagram'
-                    to='/'
-                    target='_blank'
-                    aria-label='Instagram'
-                    >
-                    <i class='fab fa-instagram' />
-                    </Link>
-                    <Link
-                    class='social-icon-link youtube'
-                    to='/'
-                    target='_blank'
-                    aria-label='Youtube'
-                    >
-                    <i class='fab fa-youtube' />
-                    </Link>
-                    <Link
-                    class='social-icon-link twitter'
-                    to='/'
-                    target='_blank'
-                    aria-label='Twitter'
-                    >
-                    <i class='fab fa-twitter' />
-                    </Link>
-                    <Link
-                    class='social-icon-link twitter'
-                    to='/'
-                    target='_blank'
-                    aria-label='LinkedIn'
-                    >
-                    <i class='fab fa-linkedin' />
-                    </Link>
-                </div>
-             </div>
-        </section>
+            
         </div>
     )
 }
