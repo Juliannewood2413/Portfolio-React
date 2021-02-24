@@ -4,7 +4,6 @@ import './Cards.css';
 
 function Cards(props) {
 
-    // function handleCardClick() 
 
     return (
         <div className="cards">
@@ -17,13 +16,14 @@ function Cards(props) {
                         text="Explore this project"
                         label="Employee Directory"
                         href="https://juliannewood2413.github.io/Employee_directory/"
+                        onClick={props.handleCardClick}
                         />
                         <CardItem 
                         src="./images/fitTracker.png"
                         text="Explore this project"
                         label="Fitness Tracker"
                         href="https://secure-temple-19782.herokuapp.com/?id=60206f6f696f6900159cc092"
-                        onClick={() => window.open("https://secure-temple-19782.herokuapp.com/?id=60206f6f696f6900159cc092")}
+                        // onClick={() => window.open("https://secure-temple-19782.herokuapp.com/?id=60206f6f696f6900159cc092")}
                         />
                         <CardItem 
                         src="./images/budget.PNG"
