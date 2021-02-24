@@ -4,6 +4,8 @@ import './Footer.css';
 import {Link} from 'react-router-dom';
 
 function Footer() {
+
+
     return (
         <div className="footer-container">
             <section className="footer-subscription">
@@ -24,15 +26,17 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Social Media</h2>
-                        <Link to="https://www.linkedin.com/in/julianne-wood-1392261b5/">LinkedIn <i class="fab fa-linkedin fa-1x"></i></Link>
-                        <Link to="https://github.com/Juliannewood2413">GitHub <i class="fab fa-github fa-1x"></i></Link>
+                        <Link 
+                        href="https://www.linkedin.com/in/julianne-wood-1392261b5/"
+                        onClick={() => {window.open("https://www.linkedin.com/in/julianne-wood-1392261b5/", "_blank")}}>LinkedIn <i class="fab fa-linkedin fa-1x"></i></Link>
+                        <Link href="https://github.com/Juliannewood2413" onClick={() => {window.open("https://github.com/Juliannewood2413", "_blank")}}>GitHub <i class="fab fa-github fa-1x"></i></Link>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>More Info </h2>
-                        <Link to="https://juliannewood2413.github.io/Resume_file/">Resume <i class="fas fa-paperclip fa-1x"></i></Link>
-                        <Link to="https://github.com/Juliannewood2413">GitHub <i class="fab fa-github fa-1x"></i></Link>
+                        <Link href="https://juliannewood2413.github.io/Resume_file/" onClick={() => {window.open("https://juliannewood2413.github.io/Resume_file/")}}>Resume <i class="fas fa-paperclip fa-1x"></i></Link>
+                        <Link href="https://github.com/Juliannewood2413" onClick={() => {window.open("https://github.com/Juliannewood2413", "_blank")}}>GitHub <i class="fab fa-github fa-1x"></i></Link>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,11 @@ import './Cards.css';
 
 function Cards(props) {
 
+    function handleCardClick() {
+        document.getElementsByClassName('cards__item__link').addEventListener('click', function() {
+            window.open(props.href);
+        })
+    }
 
     return (
         <div className="cards">
@@ -16,7 +21,7 @@ function Cards(props) {
                         text="Explore this project"
                         label="Employee Directory"
                         href="https://juliannewood2413.github.io/Employee_directory/"
-                        onClick={props.handleCardClick}
+                        onClick={handleCardClick}
                         />
                         <CardItem 
                         src="./images/fitTracker.png"
