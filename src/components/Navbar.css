@@ -18,6 +18,11 @@
   max-width: 1500px;
 }
 
+/* .navbar-logo {
+  justify-self: start;
+  size: 200px 200px;
+} */
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
