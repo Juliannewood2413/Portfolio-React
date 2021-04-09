@@ -35,7 +35,7 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>More Info </h2>
-                        <Link href="https://juliannewood2413.github.io/Resume_file/" onClick={() => {window.open("https://drive.google.com/file/d/15Pik888YNvv164qiO4CFtUtShNrytsxp/view?usp=sharing")}}>Resume <i class="fas fa-paperclip fa-1x"></i></Link>
+                        <Link href="https://drive.google.com/file/d/15Pik888YNvv164qiO4CFtUtShNrytsxp/view?usp=sharing" onClick={() => {window.open("https://drive.google.com/file/d/15Pik888YNvv164qiO4CFtUtShNrytsxp/view?usp=sharing")}}>Resume <i class="fas fa-paperclip fa-1x"></i></Link>
                         <Link href="https://github.com/Juliannewood2413" onClick={() => {window.open("https://github.com/Juliannewood2413", "_blank")}}>GitHub <i class="fab fa-github fa-1x"></i></Link>
                     </div>
                 </div>
